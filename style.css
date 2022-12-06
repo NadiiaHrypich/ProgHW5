@@ -1,0 +1,234 @@
+:root {
+--color-black : #292B2E;
+--p : 30px;
+--orange : #FFB742;
+--white : #FFFFFF;
+}
+
+body {
+    background-color: #212529;
+    color: var(--white)
+}
+
+.header {
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--white);
+    list-style-type: none;
+    width: 100%;
+    
+}
+
+.list-items:hover {
+    background-color: var(--orange);
+}
+
+.main-info {
+    font-family: inter;
+    font-weight: 700;
+    color: var(--white);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 136px;
+    margin-top: 108px;
+    }
+
+.h2 {
+    font-size: 32px;
+}
+
+.h1 {
+    font-size: 48px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.name {
+    color: var(--orange);
+    font-size: 32px;
+    font-family: inter;
+}
+
+.avatar {
+    background: #212529;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 32%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(var(--p) - 5px) var(--p);
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box
+}
+
+
+.card_content > div:first-child{
+    color: var(--orange);
+    font-family: inter;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card_content > div:last-child{
+    color: var(--white);
+}
+
+.card-text {
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 700;
+}
+
+.card:hover {
+    background: linear-gradient(#FFB742 #FF7B4276);
+    color: var(--color-black)
+}
+
+.about-me {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 var(--p);
+    text-align: left;
+    margin-top: 220px;
+
+}
+
+.about-me-text {
+    padding: var(--p);
+}
+
+.text {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.review {
+    display: inline-block;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttom1 {
+    background-color: var(--orange);
+    text-align: center;
+    display: inline-block;
+    padding: 12px 26px;
+    height: 34px;
+    border-radius: 50px;
+    font-family: poppins;
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.buttom2 {
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--orange);
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.skills {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 var(--p);
+    text-align: left;
+    margin-top: 220px;
+}
+
+.works {
+    margin: 0px 400px;
+}
+.works-text {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding: 0 var(--p);
+    margin-top: 220px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    }
+
+.foto1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 var(--p);
+    text-align: center;
+    margin-top: 220px;
+}
+
+.review {
+    margin-top: 70px;
+    
+}
+.footer {
+    margin-top: 220px;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.list {
+    list-style-type: none; 
+}
+
+.footer-item:hover{
+    color:var(--orange)
+}
